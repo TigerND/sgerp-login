@@ -9,7 +9,9 @@ export default ({ children }) => {
 
   if (headers) {
     return (
-      <AuthContext.Provider value={headers}>{children}</AuthContext.Provider>
+      <AuthContext.Provider value={headers}>
+        {children}
+      </AuthContext.Provider>
     );
   }
 

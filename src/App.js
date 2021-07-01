@@ -10,7 +10,7 @@ const App = () => {
   const [auth] = useAuth();
 
   return (
-    <div classN ame="App">
+    <div className="App">
       <h1>Logged in!</h1>
       <p>{auth}</p>
     </div>
